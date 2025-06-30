@@ -3,7 +3,7 @@
 
 An interactive web application that **simplifies complex text** using AI. Whether you're explaining rocket science to a child or breaking down policy for an expert, this app adjusts its output to match your chosen audience level.
 
-🌐 **Live Demo**: [https://explain-to-me.netlify.app/](https://explain-to-me.netlify.app/)
+🌐 **Live Demo**: [https://explain-to-me.netlify.app/](https://explainit-to-me.netlify.app/)
 
 ![App Preview](./assets/app-preview.png)
 
