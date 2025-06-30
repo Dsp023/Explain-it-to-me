@@ -36,65 +36,21 @@ An interactive web application that **simplifies complex text** using AI. Whethe
 - Node.js installed
 - Groq API key (free tier supported)
 
-### Installation
-
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/yourusername/explain-it-to-me.git
    cd explain-it-to-me
 ````
 
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Add your Groq API key in the config or `.env` file.
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
----
-
-## 📁 Folder Structure
-
-```
-/assets         → Contains UI images and icons  
-/public         → Static files  
-/src            → Main codebase  
-  └─ index.html  
-  └─ script.js  
-  └─ styles.css  
-.env            → Your Groq API key  
-```
-
----
 
 ## 🙌 Contributing
 
 Contributions, suggestions, and feature requests are welcome!
 Feel free to open an issue or submit a pull request.
 
----
-
-## 📄 License
-
-This project is open-source under the [MIT License](LICENSE).
-
----
-
 ## 🤝 Connect
 
-Made with ❤️ by **[Nakka Devi Sri Prasad](mailto:nakkadevisriprasad@gmail.com)**
+Made  by **[Nakka Devi Sri Prasad](mailto:nakkadevisriprasad@gmail.com)**
 Let's build smarter tools for everyone.
 
-```
 
----
-
-Let me know if you'd like a badge section, contribution guidelines, or CI/CD setup included too!
-```
