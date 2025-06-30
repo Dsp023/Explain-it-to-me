@@ -5,7 +5,7 @@ An interactive web application that **simplifies complex text** using AI. Whethe
 
 🌐 **Live Demo**: [https://explain-to-me.netlify.app/](https://explainit-to-me.netlify.app/)
 
-![App Preview](./preview.png)
+![App Preview](./Preview.png)
 
 ---
 
