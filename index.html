@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The "Explain It To Me" Engine</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans">
+
+    <div class="container mx-auto mt-10 p-4 max-w-4xl">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-white">The "Explain It To Me" Engine</h1>
+            <p class="text-gray-400">Paste in complex text and get a simple explanation.</p>
+        </header>
+
+        <main class="bg-gray-800 p-8 rounded-lg shadow-2xl">
+            <div class="mb-6">
+                <label for="text-input" class="block text-gray-400 text-sm font-bold mb-2">Your Text:</label>
+                <textarea id="text-input" class="bg-gray-900 text-gray-200 shadow appearance-none border-2 border-gray-700 rounded w-full py-2 px-3 leading-tight focus:outline-none focus:border-blue-500 h-48" placeholder="Paste your complex text here..."></textarea>
+            </div>
+
+            <div class="mb-6">
+                <label for="level-slider" class="block text-gray-400 text-xs font-bold mb-2">EXPLANATION LEVEL: <span id="level-label" class="font-normal text-blue-400">Simple</span></label>
+                <input type="range" id="level-slider" min="0" max="4" value="1" class="w-full h-1.5 bg-gray-700 rounded-lg appearance-none cursor-pointer">
+                <div class="flex justify-between text-xs text-gray-500 mt-1">
+                    <span>Child</span>
+                    <span>Simple</span>
+                    <span>Detailed</span>
+                    <span>Academic</span>
+                    <span>Expert</span>
+                </div>
+            </div>
+
+            <div class="text-center mb-6">
+                <button id="explain-button" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 transform hover:scale-105">
+                    Explain
+                </button>
+            </div>
+
+            <div>
+                <h3 class="text-lg font-bold text-white mb-2">Explanation:</h3>
+                <div id="output-display" class="bg-gray-900 p-4 rounded border-2 border-gray-700 min-h-[12rem]">
+                    <p class="text-gray-500">Your explanation will appear here...</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="text-center mt-10 p-4 border-t border-gray-700">
+            <p class="text-gray-500 text-sm">
+                Created by <a href="#" class="text-blue-400 hover:text-blue-500">Nakka Devi Sri Prasad</a> | 
+                <a href="https://github.com/Dsp023" target="_blank" class="text-blue-400 hover:text-blue-500">GitHub</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html> 
